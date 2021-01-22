@@ -17,8 +17,6 @@ namespace WindowsFormsApp11
         int s = 10;
         int Sum;
 
-
-
         public Form1()
         {
 
@@ -67,12 +65,6 @@ namespace WindowsFormsApp11
             {
                 label1.Text = "Įveskite " + (10 - n) + " skaičius";
             }
-
-
-
-
-
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -115,11 +107,6 @@ namespace WindowsFormsApp11
                 }
                 richTextBox1.Text += "\n";
             }
-           
-
-
-
-
         }
     }
 }
